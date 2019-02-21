@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Avenir Next', sans-serif;
+    font-family: 'Avenir Next', 'Poppins', sans-serif;
 }
 
 body {
-    background: #E8F3F4;
+    background: rgb(245, 245, 245);
 }
 
 .container {
@@ -48,6 +48,7 @@ body {
 
 .photo-cards img {
     width: 100%;
+    border-radius: 2px;
 }
 
 .photo-cards img:hover {
@@ -56,6 +57,12 @@ body {
     -webkit-box-shadow: 0 10px 6px -6px #bbb;
     -moz-box-shadow: 0 10px 6px -6px #bbb;
     box-shadow: 0 10px 6px -6px #bbb;
+}
+
+/* ------ FANCYBOX STYLE ------ */
+
+.fancybox-caption__body {
+    font-size: 1.5em;
 }
 
 /* ------ MEDIA QUERIES ------ */

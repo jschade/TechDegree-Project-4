@@ -1,5 +1,5 @@
-var imgSearch = document.getElementById("userInput");
-var imgDataTitle = document.querySelectorAll("a[data-caption");
+let imgSearch = document.getElementById("userInput");
+let imgDataTitle = document.querySelectorAll("a[data-caption");
 
 imgSearch.addEventListener("keyup", function(filtering){
 
